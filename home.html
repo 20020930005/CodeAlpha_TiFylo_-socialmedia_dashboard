@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+    <nav class="navigation_bar">
+      <div class="logo">
+        <img src="./assets/socialmedia_logo.png" alt="logo">
+        <p>Connect. Streamline. Stay Social.<p>
+      </div>
+
+      <ul class="nav-links">
+        <li class="list_item"><a href="#Home">Home</a></li>
+        <li class="list_item"><a href="#About">About</a></li>
+        <li class="list_item"><a href="#contact">Contact us</a></li>
+        <li class="list_item"><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+
+      <div class="toggle-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+    </nav>
+
+    <section class="section1_banner" id="Home">
+    <div class="banner-content">
+      <h1>Welcome to TyFilo</h1>
+      <p>Streamline Your Social Life - All Your Feeds, <br>One Powerful Dashboard!</p>
+      <img src="./assets/socialmedia_logo.png" class="b_content_img1"><br>
+      <img src="./assets/logoset-removebg-preview.png" class="b_content_img2"></img>
+
+    </div>
+  </section>
+
+  <section class="section2_about" id="About">
+    
+    <h1>About TyFilo</h1>
+    <p>"This platform is designed to bring all your social media feeds together in one seamless and intuitive dashboard, giving you the power to stay connected across multiple platforms without the hassle. Whether you're tracking your latest posts, engaging with followers, or simply staying updated on what's trending, we've got it all in one place to make your social experience smoother, faster, and more efficient than ever before."</p>
+  
+  </section>
+
+  <section class="section3_contact" id="contact">
+    <div class="form_container">
+    <h1>Contact us</h1>
+    <p>Have any question? feel free to reach out!</p>
+    <form class="form_contact" action="sandaliwijesooriya18@gmail.com">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-icons">
+      <a href="#"> <img src="./assets/wapp.png" alt="whatsapp"> </a>
+      <a href="#"> <img src="./assets/linkedin1.png" alt="linkedin"> </a>
+      
+    </div>
+  </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+    
+      <a href="#" class="footer-logo">
+        <img src="./assets/socialmedia_logo.png" alt="Site Logo">
+      </a>
+      <div class="coppyright">
+      <p class="footer-copyright">&copy; 2024 WijesooriyaGroup. All rights reserved.</p></div>
+    </div>
+  </footer>
+  
+  
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
